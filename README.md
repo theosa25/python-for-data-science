@@ -30,3 +30,5 @@ Room: K4
 ## Use of Large Language Models
 
 [TODO]
+
+Incorporate: logging, tqdm, try/except, seaborn, pep 8, comments
