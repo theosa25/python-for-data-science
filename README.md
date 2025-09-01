@@ -4,10 +4,6 @@ Course info and materials.
 
 Practicals: Ondřej Týbl, Filip Bočinec ([surname]@karlin.mff.cuni.cz)
 
-## Requirements
-
-To receive the course credit [TODO]
-
 ## Plan
 | Date       | Topic                          | Homework Assignment | Homework Deadline[^1] | Lecturer |
 |------------|--------------------------------|---------------------|------------------|----------|
@@ -21,6 +17,14 @@ To receive the course credit [TODO]
 
 [^1]: All homework deadlines are due at **23:59** on the specified date.  
 
-## Setting-up python
+## Materials
+
+[TODO]
+
+## Requirements
+
+[TODO]
+
+## Use of Large Language Models
 
 [TODO]
