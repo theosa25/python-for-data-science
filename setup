@@ -41,7 +41,7 @@ Below, a detailed instructions on how to set everything up is provided.
 ### 4) Install dependencies
 - open Terminal in PyCharm (one of the icons in the left-down corner)
 - make sure there is `(.venv)` at the beginning of your command line, denoting you are now in the activated virtual environment, that you created in the previous steps
-- install [TODO]
+- install [TODO] (use python 3.11.5)
 
 ### 5) Run Jupyter
 - [TODO]
