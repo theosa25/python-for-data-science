@@ -1,0 +1,47 @@
+In our course, we will learn how to use a whole bunch of tools and technologies that form the foundation of data science.
+
+| Category                     | Solution             | Description                                                                |
+|------------------------------|---------------------|-----------------------------------------------------------------------------|
+| Programming Language         | Python              | The language used to write and execute code.                                | 
+| Integrated Development Environment (IDE)      | PyCharm             | Editor for writing, debugging, and managing projects (+ many more).                |
+| Virtual Environment          | venv                | An isolated environment to manage project-specific package dependencies.            |
+| Script / Notebook            | Jupyter Notebook    | An interactive file format/environment for running and documenting code.    |
+| Version Control System (VCS) | Git                 | Tracks code changes and manages project history.                            |
+| VCS Hosting Platform         | GitHub              | Cloud-based platform for hosting and collaborating on Git repositories.     |
+
+Below, a detailed instructions on how to set everything up is provided.
+
+### 1) Install PyCharm
+
+- go to: https://www.jetbrains.com/shop/eform/students
+- fill in the form to get the license, you can use your @cuni.cz email or ISIC
+- download and install
+
+### 2) Install git
+
+- [TODO]
+
+### 3) Set up GitHub
+- Create an account 
+- Create a fork of the course repo
+  - https://docs.github.com/en/get-started/quickstart/fork-a-repo
+  - A fork enables you to commit your own changes into your separate repo (not the shared one owned by teachers)
+
+### 3) Get the course files - several options ordered by level of recommendation
+
+#### 3.1) Use PyCharm integrated version control
+- PyCharm has an integration to GitHub
+- Click File -> Project from Version Control (or in the startup window you will see something like "Clone repository" or "VCS")
+- Clone your repository by selecting it in the version control and create a project from this folder
+- Do not clone the repository into a cloud folder! Use 'users/<me>/repos/data-science-2' foe example
+- This will create a project without any Interpreter
+- In the bottom right, click on the <No Interpreter>, select "Add New Interpreter" -> "Add Local Interpreter"
+- Create a new virtual environment with Python 3.10 (if not present, it will be downloaded)
+
+### 4) Install dependencies
+- open Terminal in PyCharm (one of the icons in the left-down corner)
+- make sure there is `(.venv)` at the beginning of your command line, denoting you are now in the activated virtual environment, that you created in the previous steps
+- install [TODO]
+
+### 5) Run Jupyter
+- [TODO]
