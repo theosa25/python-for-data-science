@@ -3,7 +3,9 @@
 Course info and materials.
 
 Practicals: Ondřej Týbl, Filip Bočinec ([surname]@karlin.mff.cuni.cz)
+
 Time: Monday 12:20
+
 Room: K4
 
 ## Plan
@@ -15,7 +17,7 @@ Room: K4
 | 10.11.2025 | sql                            | [TODO]              | 17.11.2025           | Ondřej   |
 | 24.11.2025 | matplotlib                     | [TODO]              | 01.12.2025           | Ondřej   |
 | 08.12.2025 | scikit-learn                   | [TODO]              | 15.12.2025           | Filip   |
-| 05.01.2026 | Object-oriented programming    | [TODO]              | 12.01.2025           | Ondřej   |
+| 05.01.2026 | Object-oriented programming    | [TODO]              | 12.01.2026           | Ondřej   |
 
 [^1]: All homework deadlines are due at **23:59** on the specified date.  
 
