@@ -11,8 +11,8 @@ Room: K4
 ## Plan
 | Date       | Topic                          | Homework Assignment | Homework Deadline[^1] | Lecturer |
 |------------|--------------------------------|---------------------|------------------|----------|
-| 29.09.2025 | introduction                   | no assignment              | no assignment           | Filip   |
-| 13.10.2025 | numpy                          | [TODO]              | 20.10.2025           | Filip   |
+| 29.09.2025 | introduction                   | [click](https://github.com/ondratybl/python-for-data-science/blob/main/assignment1.ipynb)              | 20.10.2025           | Filip   |
+| 13.10.2025 | numpy                          | [TODO]             | 20.10.2025           | Filip   |
 | 27.10.2025 | pandas                         | [TODO]              | 03.11.2025           | Ondřej   |
 | 10.11.2025 | sql                            | [TODO]              | 17.11.2025           | Ondřej   |
 | 24.11.2025 | matplotlib                     | [TODO]              | 01.12.2025           | Ondřej   |
@@ -83,7 +83,7 @@ Below, a detailed instructions on how to set everything up is provided.
 - whenever you find out that you want to add some package, just open the Terminal in pycharm and type `pip install [package]`
 
 ### 5) Submit a test homework solution
-- navigate to `week1.ipyng` in the left and double-click
+- navigate to `assignment1.ipyng` in the left and double-click
 - select 'run' to test that everything works properly
 - add a new cell that will print your username on GitHub
 - submit the solution via a git push, just select <Git> in the top panel –> <Commit> –> insert some commit message –> Commit and Push
