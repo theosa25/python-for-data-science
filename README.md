@@ -94,7 +94,7 @@ Below, a detailed instructions on how to set everything up is provided.
 
 ### 4) Create a Project in PyCharm
 
-- Open PyCharm.
+- Open PyCharm. Activate PyCharm Professional if not activated yet by clicking **Trial** in the top-right –> **Activate PyCharm Pro** -> **Activate Another Subscription...*.
 - (Windows) Select **Clone Repository**.
 - (Mac) Select **Get from VCS**.
 - Enter the URL of your forked repository:  
@@ -122,7 +122,7 @@ Below, a detailed instructions on how to set everything up is provided.
 
 ### 6) Submit a Test Homework Solution
 
-- Open `assignment1.ipynb` in Pycharm
+- Open `assignment1.ipynb` in PyCharm
 - Click **Run** to verify everything works.
 - Add a new cell that prints your GitHub username.
 - Submit your solution with **Git → Commit → Commit and Push**.  
