@@ -19,21 +19,22 @@ Room: K4
 | 08.12.2025 | scikit-learn                   | [TODO]              | 15.12.2025           | Filip   |
 | 05.01.2026 | Object-oriented programming    | [TODO]              | 12.01.2026           | Ondřej   |
 
-[^1]: All homework deadlines are due at **23:59** on the specified date.  
+[^1]: All homework deadlines are due at **23:59** on the specified date.
 
 ## Materials
 
-[TODO]
+- [w3schools](https://www.w3schools.com/python/)
+- [MIT](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/)
 
 ## Requirements
 
-In total, 6 homework assignments will be given. 
+Several homework assignments will be given. You are required to submit a solution for each assignment by the respective deadline. Your code will be evaluated based on readability, efficiency, correctness, and whether it runs successfully.
+
+After each deadline, we check your GitHub repositories and evaluate your solutions as `passed`, `revision` or `failed`. You need all the solutions to be marked as `passed` by `the end of January` to obtain the course credits. If marked as `revision`, you can resubmit your improved solution to obtain `passed`.
 
 ## Use of Large Language Models
 
 [TODO]
-
-Incorporate: logging, tqdm, try/except, seaborn, pep 8, comments
 
 ## Setting up everything
 
@@ -71,7 +72,7 @@ Below, a detailed instructions on how to set everything up is provided.
 #### 3) Create project
 
 - Open Pycharm
-- Select 'Get from VCS' to connect to your repository, use url https://github.com/[username]/python-for-data-science and select 'Clone'
+- Select 'Get from VCS' to connect to your repository, use url https://github.com/[username]/python-for-data-science and select `Clone`
 
 ### 4) Create python environment
 - In the bottom right, click on the <No Interpreter>, select "Add New Interpreter" -> "Add Local Interpreter"
@@ -81,10 +82,16 @@ Below, a detailed instructions on how to set everything up is provided.
 - install all necessary packages by typing `pip install -r requirements.txt`
 - whenever you find out that you want to add some package, just open the Terminal in pycharm and type `pip install [package]`
 
-### 5) Run Jupyter
-- navigate to `test.ipyng` in the left and double-click
+### 5) Submit a test homework solution
+- navigate to `week1.ipyng` in the left and double-click
 - select 'run' to test that everything works properly
+- add a new cell that will print your username on GitHub
+- submit the solution via a git push, just select <Git> in the top panel –> <Commit> –> insert some commit message –> Commit and Push
+- check https://github.com/[username]/python-for-data-science to see the code change
+- tell us your name and GitHub username, all the following homework solutions will be submitted using this way
 
 ### 6) Congratulations!
 
 You are now ready to create your code.
+
+[TODO]: logging, tqdm, try/except, seaborn, pep 8, comments
