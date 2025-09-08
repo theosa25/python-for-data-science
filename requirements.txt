@@ -11,3 +11,5 @@ openpyxl
 jinja2
 pydantic
 sqlalchemy
+scikit-learn
+numpy
