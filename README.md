@@ -27,7 +27,7 @@ Room: K4
 
 ## Requirements
 
-[TODO]
+In total, 6 homework assignments will be given. 
 
 ## Use of Large Language Models
 
@@ -79,6 +79,7 @@ Below, a detailed instructions on how to set everything up is provided.
 - open Terminal in PyCharm (one of the icons in the left-down corner)
 - make sure there is `(.venv)` at the beginning of your command line, denoting you are now in the activated virtual environment, that you created in the previous steps
 - install all necessary packages by typing `pip install -r requirements.txt`
+- whenever you find out that you want to add some package, just open the Terminal in pycharm and type `pip install [package]`
 
 ### 5) Run Jupyter
 - navigate to `test.ipyng` in the left and double-click
