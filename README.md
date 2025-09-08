@@ -107,15 +107,11 @@ Below, a detailed instructions on how to set everything up is provided.
 
 ### 5) Create a Python Environment
 
-- In the bottom-right corner of PyCharm, click on `<No Interpreter>`.
-- Select **Add New Interpreter → Add Local Interpreter**.
-- Create a new **virtual environment** with Python 3.11 (if not present, PyCharm will download it).
-- Open the Terminal in PyCharm (icon in the bottom-left corner).
-- Make sure your command line starts with `(.venv)` → this confirms the virtual environment is active.
-- Install all required packages:
+- (Mac) In the bottom-right corner of PyCharm, click on `<No Interpreter>`, select **Add New Interpreter → Add Local Interpreter**. Create a new **virtual environment** with Python 3.11 (if not present, PyCharm will download it). Open the Terminal in PyCharm (icon in the bottom-left corner). Make sure your command line starts with `(.venv)` → this confirms the virtual environment is active. Install all required packages:
   ```bash
   pip install -r requirements.txt
   ```
+- (Windows) After project is created, **Creating Virtual Environment** window should pop up (if not, follow Mac instructions). As base interpreter, choose Python 3.11 and click **OK**
 - If you need additional packages later, install them via:
   ```bash
   pip install [package]
@@ -142,3 +138,8 @@ Below, a detailed instructions on how to set everything up is provided.
 
 ### 7) 🎉 Congratulations!
 You are ready to start working on the course!
+
+
+### FAQ
+
+1) Problem: When creating virtual environment, Pycharm does not provide any python versions. Solution: Completely erase the project including the folder in PycharmProjects and create it from scratch. If does not help, install desired python version yourself.
