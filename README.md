@@ -112,6 +112,7 @@ Below, a detailed instructions on how to set everything up is provided.
   pip install -r requirements.txt
   ```
 - (Windows) After project is created, **Creating Virtual Environment** window should pop up (if not, follow Mac instructions). As base interpreter, choose Python 3.11 and click **OK**
+- A blue progress bar will appear at the bottom of PyCharm when processes such as package installation are running. Please wait until it completes.
 - If you need additional packages later, install them via:
   ```bash
   pip install [package]
