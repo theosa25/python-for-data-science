@@ -34,3 +34,56 @@ Room: K4
 [TODO]
 
 Incorporate: logging, tqdm, try/except, seaborn, pep 8, comments
+
+## Setting up everything
+
+In our course, we will learn how to use a whole bunch of tools and technologies that form the foundation of data science.
+
+| Category                     | Solution             | Description                                                                |
+|------------------------------|---------------------|-----------------------------------------------------------------------------|
+| Programming Language         | Python              | The language used to write and execute code.                                | 
+| Integrated Development Environment (IDE)      | PyCharm             | Editor for writing, debugging, and managing projects (+ many more).                |
+| Virtual Environment          | venv                | An isolated environment to manage project-specific package dependencies.            |
+| Script / Notebook            | Jupyter Notebook    | An interactive file format/environment for running and documenting code.    |
+| Version Control System (VCS) | Git                 | Tracks code changes and manages project history.                            |
+| VCS Hosting Platform         | GitHub              | Cloud-based platform for hosting and collaborating on Git repositories.     |
+
+Below, a detailed instructions on how to set everything up is provided.
+
+### 1) Install PyCharm
+
+- Go to [PyCharm Student License Form](https://www.jetbrains.com/shop/eform/students)
+- Fill in the form to get the license, you can use your @cuni.cz email or ISIC
+- Download and install
+
+### 2) Install git
+
+- (Windows) [Download](https://git-scm.com/downloads/win) the installer (presumably, you need Git for Windows/x64 Setup), use recommended and defult settings to install it, verify installation by typing 'git --version' in your Command Prompt
+- (Mac) Install Xcode, verify installation by typing 'git --version' in your Terminal
+
+### 3) Create GitHub account
+
+- Go to [GitHub](https://www.github.com)
+- Create your account
+- Create a course repository fork by navigating to 'fork' [here](https://github.com/ondratybl/python-for-data-science), we strongly encourage you to use keep the default repository name
+- A fork enables you to commit your own changes into your separate repository
+
+#### 3) Create project
+
+- Open Pycharm
+- Select 'Get from VCS' to connect to your repository, use url https://github.com/[username]/python-for-data-science and select 'Clone'
+
+### 4) Create python environment
+- In the bottom right, click on the <No Interpreter>, select "Add New Interpreter" -> "Add Local Interpreter"
+- Create a new virtual environment with Python 3.11 (if not present, it will be downloaded)
+- open Terminal in PyCharm (one of the icons in the left-down corner)
+- make sure there is `(.venv)` at the beginning of your command line, denoting you are now in the activated virtual environment, that you created in the previous steps
+- install all necessary packages by typing 'pip install -r requirements.txt'
+
+### 5) Run Jupyter
+- navigate to 'test.ipyng' in the left and double-click
+- select 'run' to test that everything works properly
+
+### 6) Congratulations!
+
+You are now ready to create your code.
