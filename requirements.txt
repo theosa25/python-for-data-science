@@ -1,1 +1,13 @@
 jupyter
+pandas
+python-dateutil
+matplotlib
+seaborn
+plotly
+click
+rich
+tqdm
+openpyxl
+jinja2
+pydantic
+sqlalchemy
