@@ -78,10 +78,10 @@ Below, a detailed instructions on how to set everything up is provided.
 - Create a new virtual environment with Python 3.11 (if not present, it will be downloaded)
 - open Terminal in PyCharm (one of the icons in the left-down corner)
 - make sure there is `(.venv)` at the beginning of your command line, denoting you are now in the activated virtual environment, that you created in the previous steps
-- install all necessary packages by typing 'pip install -r requirements.txt'
+- install all necessary packages by typing `pip install -r requirements.txt`
 
 ### 5) Run Jupyter
-- navigate to 'test.ipyng' in the left and double-click
+- navigate to `test.ipyng` in the left and double-click
 - select 'run' to test that everything works properly
 
 ### 6) Congratulations!
