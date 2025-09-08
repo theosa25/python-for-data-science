@@ -95,7 +95,8 @@ Below, a detailed instructions on how to set everything up is provided.
 ### 4) Create a Project in PyCharm
 
 - Open PyCharm.
-- Select **Get from VCS**.
+- (Windows) Select **Clone Repository**.
+- (Mac) Select **Get from VCS**.
 - Enter the URL of your forked repository:  
   ```
   https://github.com/[your-username]/python-for-data-science
