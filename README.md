@@ -51,47 +51,93 @@ In our course, we will learn how to use a whole bunch of tools and technologies 
 
 Below, a detailed instructions on how to set everything up is provided.
 
+# Setup Instructions
+
 ### 1) Install PyCharm
 
-- Go to [PyCharm Student License Form](https://www.jetbrains.com/shop/eform/students)
-- Fill in the form to get the license, you can use your @cuni.cz email or ISIC
-- Download and install
+- Go to the [PyCharm Student License Form](https://www.jetbrains.com/shop/eform/students).
+- Fill in the form to get a free license (you can use your `@cuni.cz` email or ISIC).
+- Download and install PyCharm.
 
-### 2) Install git
+---
 
-- (Windows) [Download](https://git-scm.com/downloads/win) the installer (presumably, you need Git for Windows/x64 Setup), use recommended and defult settings to install it, verify installation by typing 'git --version' in your Command Prompt
-- (Mac) Install Xcode, verify installation by typing 'git --version' in your Terminal
+### 2) Install Git
 
-### 3) Create GitHub account
+- **Windows**  
+  [Download Git for Windows](https://git-scm.com/download/win) (use the *64-bit Git for Windows Setup*).  
+  Install with the recommended (default) settings.  
+  Verify installation by opening **Command Prompt** and typing:  
+  ```bash
+  git --version
+  ```
 
-- Go to [GitHub](https://www.github.com)
-- Create your account
-- Create a course repository fork by navigating to 'fork' [here](https://github.com/ondratybl/python-for-data-science), we strongly encourage you to use keep the default repository name
-- A fork enables you to commit your own changes into your separate repository
+- **macOS**  
+  Install Xcode Command Line Tools (which include Git) by running:  
+  ```bash
+  xcode-select --install
+  ```  
+  Verify installation by typing:  
+  ```bash
+  git --version
+  ```
 
-#### 3) Create project
+---
 
-- Open Pycharm
-- Select 'Get from VCS' to connect to your repository, use url https://github.com/[username]/python-for-data-science and select `Clone`
+### 3) Create a GitHub Account
 
-### 4) Create python environment
-- In the bottom right, click on the <No Interpreter>, select "Add New Interpreter" -> "Add Local Interpreter"
-- Create a new virtual environment with Python 3.11 (if not present, it will be downloaded)
-- open Terminal in PyCharm (one of the icons in the left-down corner)
-- make sure there is `(.venv)` at the beginning of your command line, denoting you are now in the activated virtual environment, that you created in the previous steps
-- install all necessary packages by typing `pip install -r requirements.txt`
-- whenever you find out that you want to add some package, just open the Terminal in pycharm and type `pip install [package]`
+- Go to [GitHub](https://github.com) and create an account.
+- Fork the course repository by clicking **Fork** here: [python-for-data-science](https://github.com/ondratybl/python-for-data-science).  
+  (We strongly recommend keeping the default repository name.)
+- A fork enables you to commit your own changes in a separate copy of the repository.
 
-### 5) Submit a test homework solution
-- navigate to `assignment1.ipyng` in the left and double-click
-- select 'run' to test that everything works properly
-- add a new cell that will print your username on GitHub
-- submit the solution via a git push, just select <Git> in the top panel –> <Commit> –> insert some commit message –> Commit and Push
-- check https://github.com/[username]/python-for-data-science to see the code change
-- tell us your name and GitHub username, all the following homework solutions will be submitted using this way
+---
 
-### 6) Congratulations!
+### 4) Create a Project in PyCharm
 
-You are now ready to create your code.
+- Open PyCharm.
+- Select **Get from VCS**.
+- Enter the URL of your forked repository:  
+  ```
+  https://github.com/[your-username]/python-for-data-science
+  ```
+- Select **Clone**.
 
-[TODO]: logging, tqdm, try/except, seaborn, pep 8, comments
+---
+
+### 5) Create a Python Environment
+
+- In the bottom-right corner of PyCharm, click on `<No Interpreter>`.
+- Select **Add New Interpreter → Add Local Interpreter**.
+- Create a new **virtual environment** with Python 3.11 (if not present, PyCharm will download it).
+- Open the Terminal in PyCharm (icon in the bottom-left corner).
+- Make sure your command line starts with `(.venv)` → this confirms the virtual environment is active.
+- Install all required packages:
+  ```bash
+  pip install -r requirements.txt
+  ```
+- If you need additional packages later, install them via:
+  ```bash
+  pip install [package]
+  ```
+
+---
+
+### 6) Submit a Test Homework Solution
+
+- Open `assignment1.ipynb` in Pycharm
+- Click **Run** to verify everything works.
+- Add a new cell that prints your GitHub username.
+- Submit your solution with **Git → Commit → Commit and Push**.  
+  - Enter a commit message.  
+  - Click **Commit and Push**.
+- Verify your changes at:  
+  ```
+  https://github.com/[your-username]/python-for-data-science
+  ```
+- Tell us your name and GitHub username.  
+  All future homework solutions will be submitted the same way.
+
+---
+
+### 7) 🎉 Congratulations!
+You are ready to start working on the course!
