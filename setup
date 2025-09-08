@@ -13,35 +13,38 @@ Below, a detailed instructions on how to set everything up is provided.
 
 ### 1) Install PyCharm
 
-- go to: https://www.jetbrains.com/shop/eform/students
-- fill in the form to get the license, you can use your @cuni.cz email or ISIC
-- download and install
+- Go to [PyCharm Student License Form](https://www.jetbrains.com/shop/eform/students)
+- Fill in the form to get the license, you can use your @cuni.cz email or ISIC
+- Download and install
 
 ### 2) Install git
 
-- [TODO]
+- (Windows) [Download](https://git-scm.com/downloads/win) the installer (presumably, you need Git for Windows/x64 Setup), use recommended and defult settings to install it, verify installation by typing 'git --version' in your Command Prompt
+- (Mac) Install Xcode, verify installation by typing 'git --version' in your Terminal
 
-### 3) Set up GitHub
-- Create an account 
-- Create a fork of the course repo
-  - https://docs.github.com/en/get-started/quickstart/fork-a-repo
-  - A fork enables you to commit your own changes into your separate repo (not the shared one owned by teachers)
+### 3) Create GitHub account
 
-### 3) Get the course files - several options ordered by level of recommendation
+- Go to [GitHub](https://www.github.com)
+- Create your account
+- Create a course repository fork by navigating to 'fork' [here](https://github.com/ondratybl/python-for-data-science), we strongly encourage you to use keep the default repository name
+- A fork enables you to commit your own changes into your separate repository
 
-#### 3.1) Use PyCharm integrated version control
-- PyCharm has an integration to GitHub
-- Click File -> Project from Version Control (or in the startup window you will see something like "Clone repository" or "VCS")
-- Clone your repository by selecting it in the version control and create a project from this folder
-- Do not clone the repository into a cloud folder! Use 'users/<me>/repos/data-science-2' foe example
-- This will create a project without any Interpreter
+#### 3) Create project
+
+- Open Pycharm
+- Select 'Get from VCS' to connect to your repository, use url https://github.com/[username]/python-for-data-science and select 'Clone'
+
+### 4) Create python environment
 - In the bottom right, click on the <No Interpreter>, select "Add New Interpreter" -> "Add Local Interpreter"
-- Create a new virtual environment with Python 3.10 (if not present, it will be downloaded)
-
-### 4) Install dependencies
+- Create a new virtual environment with Python 3.11 (if not present, it will be downloaded)
 - open Terminal in PyCharm (one of the icons in the left-down corner)
 - make sure there is `(.venv)` at the beginning of your command line, denoting you are now in the activated virtual environment, that you created in the previous steps
-- install [TODO] (use python 3.11.5)
+- install all necessary packages by typing 'pip install -r requirements.txt'
 
 ### 5) Run Jupyter
-- [TODO]
+- navigate to 'test.ipyng' in the left and double-click
+- select 'run' to test that everything works properly
+
+### 6) Congratulations!
+
+You are now ready to create your code.
