@@ -55,9 +55,8 @@ Below, a detailed instructions on how to set everything up is provided.
 
 ### 1) Install PyCharm
 
-- Go to the [PyCharm Student License Form](https://www.jetbrains.com/shop/eform/students).
-- Fill in the form to get a free license (you can use your `@cuni.cz` email or ISIC).
-- Download and install PyCharm.
+- Download the installer [here](https://www.jetbrains.com/pycharm/download/?section=mac).
+- Install PyCharm using default options.
 
 ---
 
@@ -94,7 +93,6 @@ Below, a detailed instructions on how to set everything up is provided.
 
 ### 4) Create a Project in PyCharm
 
-- Open PyCharm. Activate PyCharm Professional if not activated yet by clicking **Trial** in the top-right –> **Activate PyCharm Pro** -> **Activate Another Subscription...*.
 - (Windows) Select **Clone Repository**.
 - (Mac) Select **Get from VCS**.
 - Enter the URL of your forked repository:  
