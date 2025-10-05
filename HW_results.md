@@ -29,4 +29,4 @@
 | 47005715                              | P               |      |      |      |      |      |      |      
 | 24035807                              | P               |      |      |      |      |      |      |      
 
-Passed (P), Failed (F), Revision needed (R)
+Passed (P), failed (F), revision needed (R)
