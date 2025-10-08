@@ -36,15 +36,15 @@ After each deadline, we check your GitHub repositories and evaluate your solutio
 
 Large Language Models (LLMs) such as ChatGPT, DeepSeek, or other AI assistants can be powerful tools to support your learning and coding. We do not prohibit their use, but we expect you to use them wisely and responsibly. Please follow these guidelines:
 
-- Understand Before Using: Always make sure you understand the answer or code snippet provided by an LLM. Do not copy-paste blindly; LLMs may produce errors or code that is not optimized.
+- **Understand Before Using:** Always make sure you understand the answer or code snippet provided by an LLM. Do not copy-paste blindly; LLMs may produce errors or code that is not optimized.
 
-- Use as a Learning Aid, Not a Shortcut: LLMs are helpful for explanations, examples, and clarifications. Try to solve exercises yourself first; then, if needed, consult an LLM for hints or guidance.
+- **Use as a Learning Aid, Not a Shortcut:** LLMs are helpful for explanations, examples, and clarifications. Try to solve exercises yourself first; then, if needed, consult an LLM for hints or guidance.
 
-- Verify and Test Everything: Always verify the correctness of code or explanations given by an LLM. Run code locally and check outputs. Make sure it matches the theory and your understanding.
+- **Verify and Test Everything:** Always verify the correctness of code or explanations given by an LLM. Run code locally and check outputs. Make sure it matches the theory and your understanding.
 
-- Develop Critical Thinking: Use LLM outputs as a starting point, not a final answer. Compare multiple sources and reasoning to strengthen your understanding.
+- **Develop Critical Thinking:** Use LLM outputs as a starting point, not a final answer. Compare multiple sources and reasoning to strengthen your understanding.
 
-- Privacy and Safety: Avoid sharing sensitive personal data or credentials with LLMs.
+- **Privacy and Safety:** Avoid sharing sensitive personal data or credentials with LLMs.
 
 ## Setting up everything
 
